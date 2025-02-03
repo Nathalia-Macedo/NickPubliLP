@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react"
 import eu from '../Assets/eu linda.jpg'
+import ingles from '../Assets/ingles.png'
+import beauty from '../Assets/beauty.png'
+import masso from '../Assets/masso.png'
+import sam from '../Assets/samantha.png'
+import ai from '../Assets/amiga.png'
+import otica from '../Assets/otica.png'
+import studio from '../Assets/studio.png'
+import foto from '../Assets/foto.png'
 const Testimonials = () => {
   const testimonials = [
     {
@@ -10,28 +18,52 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      name: "Maria Silva",
-      text: "Excelente trabalho! A equipe da Publi X transformou completamente nossa presença digital. Os resultados superaram todas as expectativas.",
-      avatar: "/placeholder.svg",
+      name: "@samanthakelly._",
+      text: "Bom diaa. Gostei muito do trabalho da Nick, das indicações dela. Fez com dedicação e muito empenho a divulgação dos produtos, no tempo bom.  Qualidade nos matérias de video que me mandou também. Super recomendo, carismática e atenciosa. Foi muito bom, super recomendo.❤🎉😊",
+      avatar: sam,
     },
     {
       id: 3,
-      name: "João Santos",
-      text: "Profissionalismo e criatividade em cada projeto. Nossa empresa cresceu significativamente desde que começamos a trabalhar com a Publi X.",
-      avatar: "/placeholder.svg",
+      name: "@amigaintimastore",
+      text: "Trabalho com Nick Publi, agora Publi X, desde 2019.Gostaria de tirar um momento para agradecer pelo excelente trabalho que você  têm realizado. A dedicação e a criatividade tem  sido fundamentais para o crescimento da amiga íntima store.As campanhas recentes foram muito bem-sucedidas em atrair novos clientes e engajar os antigos. Adorei ver como você incorporara as novas mercadorias nas estratégias, tornando tudo muito atraente e alinhado com as tendências do momento.Gratidão pela dedicação, e vamos nessa que essa semana teremos muito trabalho hein…",
+      avatar: ai,
     },
     {
       id: 4,
-      name: "Ana Costa",
-      text: "Estratégias certeiras e atendimento personalizado. A Publi X entende exatamente o que precisamos e entrega resultados impressionantes.",
-      avatar: "/placeholder.svg",
+      name: "@caren.rocha.massoterapeuta",
+      text: "Irei expressar minha sincera gratidão pela parceria durante esses meses. Foi um período de muito aprendizado e resultados positivos, graças ao trabalho dedicado e profissionalismo de sua parte e fico muito satisfeita com o que conseguimos conquistar juntas.Embora estejamos encerrando nossa parceria neste momento, fico com a certeza de que o trabalho foi muito bem feito e que as experiências adquiridas ao longo dessa jornada agregarão muito para ambas as partes. Espero que, no futuro, surjam novas oportunidades para voltarmos a colaborar.",
+      avatar: masso,
     },
     {
       id: 5,
-      name: "Pedro Oliveira",
-      text: "A melhor decisão que tomamos foi contratar a Publi X. Nossa visibilidade aumentou e os resultados são consistentes mês após mês.",
-      avatar: "/placeholder.svg",
+      name: "@emilysantolinbeauty",
+      text: "Ah eu amei demais super criativa, cada detalhe era um vídeo ou foto para render o máximo de materiais possíveis, assum a gnt vê que realmente vc se esforça para entregar o máximo para o cliente. Vídeos e fotos de altíssimas qualidades e edições perfeitas. Amei demais ❤",
+      avatar: beauty,
     },
+    {
+      id: 6,
+      name: "@studiollopez",
+      text: "Eu gostei muito dos seus serviços, o meu Instagram ficou top todo mundo comentou que ficou bem profissional",
+      avatar: studio,
+    },
+    {
+      id: 7,
+      name: "@jornadainglesbr",
+      text: "Meu nome é Alexander, sou proprietário da JORNADA INGLÊS BR.  Um curso de inglês moderno e internacionalizado. Eu/nós temos trabalhado com o Nick nos últimos 4 meses com muita satisfação.  Nick nos ajudou a criar conteúdo para nossas mídias nas redes sociais, obtendo ótimos resultados.  Recomendo o Nick para quem busca: criação de conteúdo para redes sociais, edição de vídeos e planejamento estratégico",
+      avatar: ingles,
+    },
+    {
+      id: 8,
+      name: "@joseumendonca.fotografia",
+      text: "Conheci Nick através das redes sociais e a convidei para uma parceria porque percebi nela um talento. E a experiência só confirmou: uma pessoa inteligente, carismática, com muitas ideias, comprometida e profissional. Meu primeiro trabalho com ela já começou de forma impactante, abrindo portas para novos clientes e possibilidades. Uma parceira com quem quero ainda fazer muitos e muitos trabalhos.",
+      avatar: foto,
+    },
+    {
+      id: 9,
+      name: "@oticasil3",
+      text: "Você foi incrível no time de MKT e Criação de Conteúdos das Óticas IL3! Sua criatividade, dedicação e visão única fizeram toda a diferença, trazendo inovação a cada projeto. Foi um prazer ver seu talento brilhar em cada ação que você fez. Acreditamos que você está pronta para encarar novos desafios e conquistar ainda mais sucesso. O futuro é seu!",
+      avatar: otica,
+    }
   ]
 
   const [currentSlide, setCurrentSlide] = useState(0)
