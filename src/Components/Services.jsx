@@ -1,5 +1,5 @@
 import React from "react"
-
+import programacao from '../Assets/programming.webp'
 const Services = () => {
   const services = [
     {
@@ -27,30 +27,39 @@ const Services = () => {
       align: "left",
     },
     {
-      title: "Filmmaker e Storymaker",
+      title: "Filmmaker ou Videomaker",
       description:
-        "Em um mundo onde tudo está online ter um bom vídeo é essencial. Nossa equipe está pronta a trazer a magia do audiovisual.",
+        "Ideias em vídeos de alto impacto, unindo criatividade e técnica para contar histórias que engajam e comunicam com eficiência. Seja para conteúdos cinematográficos ou vídeos dinâmicos para redes sociais, garantimos captação e produção visual de qualidade.",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_1871-tKYRKxgOjz0C2BmrK206HPhLpyerFx.png",
       imageAlt: "Filmmaker Illustration",
       align: "right",
     },
     {
-      title: "Edições",
+      title: "Edições de Vídeos",
       description:
-        "Em um mundo onde tudo passa ter uma ótima edição é essencial, nossa equipe está pronta para criar a melhor estética e linguagem.",
+        "Transformamos suas gravações em vídeos envolventes e impactantes, com cortes precisos, efeitos, trilha sonora e identidade visual. Do simples ao cinematográfico, entregamos edições que contam sua história do jeito certo!",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3f2ab655-f3f2-477a-980a-c0e1fdd5dbc0-XVUCNb1TOHQRgZFDFdoKSHTjZ3arVS.png",
       imageAlt: "Edições Illustration",
       align: "left",
     },
     {
-      title: "Copywriter",
+      title: "Copywriting Estratégico",
       description:
-        "Em um mundo onde tudo passa ter uma escrita efetiva, somos os especialistas a trazer a magia e resultados.",
+        "Escrevemos para convencer, engajar e converter! Criamos mensagens persuasivas e autênticas para sua marca, transformando palavras em resultados. Seja para redes sociais, sites ou campanhas, entregamos copies que fazem a diferença!.",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1ad292e6-c4dc-4ace-86ef-39389fe6854b-JrmOGf3qkvBpqKQnxVw9cwOXcpBg8t.png",
       imageAlt: "Copywriter Illustration",
       align: "right",
+    },
+    {
+      title: "Programação",
+      description:
+        "Desenvolvemos sites sob medida, com programação de alta qualidade para garantir performance, segurança e eficiência. Nossos especialistas criam soluções digitais que atendem às suas necessidades e oferecem uma experiência de navegação perfeita para o seu público.",
+      image:
+        programacao,
+      imageAlt: "Programming",
+      align: "left",
     },
   ]
 

@@ -1,7 +1,13 @@
-import React from "react"
 import Button from "./Button"
 
 const Hero = () => {
+  const handleWhatsAppRedirect = (e) => {
+    e.preventDefault()
+    const phoneNumber = "5571981594454" // Número formatado para o WhatsApp
+    const whatsappUrl = `https://wa.me/${phoneNumber}`
+    window.open(whatsappUrl, "_blank")
+  }
+
   return (
     <div className="relative min-h-screen px-6 md:px-12 py-12 overflow-hidden bg-purple-50">
       {/* Background Elements */}
@@ -34,9 +40,15 @@ const Hero = () => {
             Somos uma agência nova, mas com bagagem para entregar soluções modernas, estratégicas e personalizadas para
             destacar sua empresa no mercado.
           </p>
-          <Button className="px-8 py-4 text-lg font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1" style={{color:"white"}}>
-            Impulsione agora!
-          </Button>
+          <div className="pt-4">
+            {" "}
+            {/* Adicionado espaçamento extra aqui */}
+            <a href="#" onClick={handleWhatsAppRedirect}>
+              <Button className="px-8 py-4 text-lg font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                Impulsione agora!
+              </Button>
+            </a>
+          </div>
         </div>
 
         {/* Image */}
